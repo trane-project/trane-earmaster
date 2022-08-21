@@ -2,7 +2,8 @@
 
 This repository converts the exercises in EarMaster 7 to
 [Trane](https://github.com/trane-project/trane) courses. This is an example of how existing
-educational materials can be augmented with Trane.
+educational materials can easily be augmented with Trane. Using these courses require that you have
+a working copy of EarMaster 7.
 
 ## Building
 
