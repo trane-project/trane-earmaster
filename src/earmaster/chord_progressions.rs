@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Chord Progressions".to_string(),
-        directory_name: "earmaster_chord_progressions".to_string(),
+        directory_name: "chord_progressions".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             EarMasterLesson::new("1.1", "Identify major and minor tonic in V-1", vec![]),

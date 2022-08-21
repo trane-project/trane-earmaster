@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Chord Inversions".to_string(),
-        directory_name: "earmaster_chord_inversions".to_string(),
+        directory_name: "chord_inversions".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             // Unit 1 - Inversions of the major chord

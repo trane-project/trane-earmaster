@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Scale Identification".to_string(),
-        directory_name: "earmaster_scale_identification".to_string(),
+        directory_name: "scale_identification".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             EarMasterLesson::new("1.1", "Major, Lydian and Mixolydian", vec![]),

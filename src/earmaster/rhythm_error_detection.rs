@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Rhythm Error Detection".to_string(),
-        directory_name: "earmaster_error_detection".to_string(),
+        directory_name: "rhythm_error_detection".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             // Unit 1 - 4/4 - 2 bars: Whole, Half, Quarter & Eighth notes

@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Interval Identification".to_string(),
-        directory_name: "earmaster_interval_identification".to_string(),
+        directory_name: "interval_identification".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             // Unit 1.

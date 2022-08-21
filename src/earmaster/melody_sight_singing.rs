@@ -14,7 +14,7 @@ pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
         id: *COURSE_ID,
         name: "Melody Sight-Singing".to_string(),
-        directory_name: "earmaster_melody_sight_singing".to_string(),
+        directory_name: "melody_sight_singing".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
             // Unit 1 - 3 to 4 tones from the C Major scale
