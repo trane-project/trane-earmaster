@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::6.9",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::6.3",
+    "trane::music::earmaster::interval_comparison::6.6"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Perfect 4th & Perfect 5th - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

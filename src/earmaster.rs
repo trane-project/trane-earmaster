@@ -2,6 +2,7 @@
 pub mod chord_identification;
 pub mod chord_inversions;
 pub mod chord_progressions;
+pub mod interval_comparison;
 pub mod interval_identification;
 pub mod interval_singing;
 pub mod melody_dictation;
@@ -28,9 +29,9 @@ use ustr::Ustr;
 use crate::AUTHORS;
 
 /// Represents a lesson in EarMaster. Each lesson contains only one exercise corresponding to the
-/// Earmaster unit with the given ID.
+/// EarMaster unit with the given ID.
 struct EarMasterLesson {
-    /// A shorthand for for the ID of the lesson "1.1".
+    /// A shorthand for the ID of the lesson "1.1".
     id: Ustr,
 
     /// The full name of the lesson,
@@ -49,7 +50,7 @@ impl EarMasterLesson {
         }
     }
 
-    /// Generates a LessonBuilder based on this object.
+    /// Generates a `LessonBuilder` based on this object.
     fn lesson_builder(&self, course_id: &Ustr, course_name: &str) -> LessonBuilder {
         let lesson_id = format!("{}::{}", course_id, self.id);
         let exercise_id = format!("{}::exercise", lesson_id);

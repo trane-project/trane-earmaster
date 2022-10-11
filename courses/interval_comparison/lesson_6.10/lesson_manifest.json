@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::6.10",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::6.7",
+    "trane::music::earmaster::interval_comparison::6.8",
+    "trane::music::earmaster::interval_comparison::6.9"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Perfect intervals with a common 1st or 2nd tone",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

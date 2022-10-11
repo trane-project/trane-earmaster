@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::7.9",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::7.3",
+    "trane::music::earmaster::interval_comparison::7.6"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Major 3rd & Minor 3rd - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

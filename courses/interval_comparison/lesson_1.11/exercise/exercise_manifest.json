@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::1.11::exercise",
+  "lesson_id": "trane::music::earmaster::interval_comparison::1.11",
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Perfect intervals with a common 1st tone",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

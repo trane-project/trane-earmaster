@@ -1,0 +1,17 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::3.20",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::3.14",
+    "trane::music::earmaster::interval_comparison::3.15",
+    "trane::music::earmaster::interval_comparison::3.16",
+    "trane::music::earmaster::interval_comparison::3.17",
+    "trane::music::earmaster::interval_comparison::3.18",
+    "trane::music::earmaster::interval_comparison::3.19"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Dissonant intervals with a common 1st tone",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}
