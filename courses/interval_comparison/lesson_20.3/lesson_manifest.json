@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::20.3",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::19.13"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Perfect 11th, Perfect 12th & Two Octaves - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

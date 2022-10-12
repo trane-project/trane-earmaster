@@ -1,0 +1,17 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::9.13",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::9.4",
+    "trane::music::earmaster::interval_comparison::9.5",
+    "trane::music::earmaster::interval_comparison::9.6",
+    "trane::music::earmaster::interval_comparison::9.10",
+    "trane::music::earmaster::interval_comparison::9.11",
+    "trane::music::earmaster::interval_comparison::9.12"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Simple intervals with a common 1st tone",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::19.4",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::19.1"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "All intervals from Perfect 5th to Octave - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

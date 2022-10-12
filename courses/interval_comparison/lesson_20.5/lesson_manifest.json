@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::20.5",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::20.2"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Minor 10th, Major 10th, Minor 13th & Major 13th - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::14.8",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::13.19"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "All intervals from Minor 2nd to Major 3rd - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}
