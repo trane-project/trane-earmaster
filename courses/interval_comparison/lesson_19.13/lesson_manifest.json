@@ -1,0 +1,17 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::19.13",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::19.4",
+    "trane::music::earmaster::interval_comparison::19.5",
+    "trane::music::earmaster::interval_comparison::19.6",
+    "trane::music::earmaster::interval_comparison::19.10",
+    "trane::music::earmaster::interval_comparison::19.11",
+    "trane::music::earmaster::interval_comparison::19.12"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Simple intervals without common tone",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

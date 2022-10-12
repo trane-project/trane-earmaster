@@ -533,6 +533,522 @@ pub fn course_builder() -> CourseBuilder {
                 "Test: Compound intervals with a common 1st tone",
                 vec!["10.7", "10.8", "10.9"],
             ),
+            // Unit 11: Compare the perfect intervals - nearby 1st tones.
+            EarMasterLesson::new("11.1", "Perfect 4th & Octave  - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("11.2", "Perfect 4th & Octave  - Descending", vec!["10.10"]),
+            EarMasterLesson::new("11.3", "Perfect 4th & Octave  - Harmonic", vec!["10.10"]),
+            EarMasterLesson::new("11.4", "Perfect 5th & Octave  - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("11.5", "Perfect 5th & Octave  - Descending", vec!["10.10"]),
+            EarMasterLesson::new("11.6", "Perfect 5th & Octave  - Harmonic", vec!["10.10"]),
+            EarMasterLesson::new(
+                "11.7",
+                "Perfect 4th & Perfect 5th - Ascending",
+                vec!["11.1", "11.4"],
+            ),
+            EarMasterLesson::new(
+                "11.8",
+                "Perfect 4th & Perfect 5th - Descending",
+                vec!["11.2", "11.5"],
+            ),
+            EarMasterLesson::new(
+                "11.9",
+                "Perfect 4th & Perfect 5th - Harmonic",
+                vec!["11.3", "11.6"],
+            ),
+            EarMasterLesson::new(
+                "11.10",
+                "Test: Perfect intervals with nearby first tones",
+                vec!["11.7", "11.8", "11.9"],
+            ),
+            // Unit 12: Compare the imperfect consonant intervals - nearby 1st tones.
+            EarMasterLesson::new("12.1", "Major 3rd & Minor 6th - Ascending", vec!["11.10"]),
+            EarMasterLesson::new("12.2", "Major 3rd & Minor 6th - Descending", vec!["11.10"]),
+            EarMasterLesson::new("12.3", "Major 3rd & Minor 6th - Harmonic", vec!["11.10"]),
+            EarMasterLesson::new("12.4", "Minor 3rd & Major 6th - Ascending", vec!["11.10"]),
+            EarMasterLesson::new("12.5", "Minor 3rd & Major 6th - Descending", vec!["11.10"]),
+            EarMasterLesson::new("12.6", "Minor 3rd & Major 6th - Harmonic", vec!["11.10"]),
+            EarMasterLesson::new(
+                "12.7",
+                "Major 3rd & Minor 3rd - Ascending",
+                vec!["12.1", "12.4"],
+            ),
+            EarMasterLesson::new(
+                "12.8",
+                "Major 3rd & Minor 3rd - Descending",
+                vec!["12.2", "12.5"],
+            ),
+            EarMasterLesson::new(
+                "12.9",
+                "Major 3rd & Minor 3rd - Harmonic",
+                vec!["12.3", "12.6"],
+            ),
+            EarMasterLesson::new(
+                "12.10",
+                "Minor 6th & Major 6th - Ascending",
+                vec!["12.1", "12.4"],
+            ),
+            EarMasterLesson::new(
+                "12.11",
+                "Minor 6th & Major 6th - Descending",
+                vec!["12.2", "12.5"],
+            ),
+            EarMasterLesson::new(
+                "12.12",
+                "Minor 6th & Major 6th - Harmonic",
+                vec!["12.3", "12.6"],
+            ),
+            EarMasterLesson::new(
+                "12.13",
+                "Test: Imperfect consonant intervals with nearby first tones",
+                vec!["12.7", "12.8", "12.9", "12.10", "12.11", "12.12"],
+            ),
+            // Unit 13 - Compare all the dissonant intervals - nearby 1st tones.
+            EarMasterLesson::new("13.1", "Major 2nd & Minor 7th - Ascending", vec!["12.13"]),
+            EarMasterLesson::new("13.2", "Major 2nd & Minor 7th - Descending", vec!["12.13"]),
+            EarMasterLesson::new("13.3", "Major 2nd & Minor 7th - Harmonic", vec!["12.13"]),
+            EarMasterLesson::new("13.4", "Minor 2nd & Major 7th - Ascending", vec!["12.13"]),
+            EarMasterLesson::new("13.5", "Minor 2nd & Major 7th - Descending", vec!["12.13"]),
+            EarMasterLesson::new("13.6", "Minor 2nd & Major 7th - Harmonic", vec!["12.13"]),
+            EarMasterLesson::new(
+                "13.7",
+                "Major 2nd, Dim 5th & Minor 7th - Ascending",
+                vec!["13.1", "13.4"],
+            ),
+            EarMasterLesson::new(
+                "13.8",
+                "Major 2nd, Dim 5th & Minor 7th - Descending",
+                vec!["13.2", "13.5"],
+            ),
+            EarMasterLesson::new(
+                "13.9",
+                "Major 2nd, Dim 5th & Minor 7th - Harmonic",
+                vec!["13.3", "13.6"],
+            ),
+            EarMasterLesson::new(
+                "13.10",
+                "Minor 2nd, Dim 5th & Major 7th - Ascending",
+                vec!["13.1", "13.4"],
+            ),
+            EarMasterLesson::new(
+                "13.11",
+                "Minor 2nd, Dim 5th & Major 7th - Descending",
+                vec!["13.2", "13.5"],
+            ),
+            EarMasterLesson::new(
+                "13.12",
+                "Minor 2nd, Dim 5th & Major 7th - Harmonic",
+                vec!["13.3", "13.6"],
+            ),
+            EarMasterLesson::new(
+                "13.13",
+                "Minor 2nd & Major 2nd - Ascending",
+                vec!["13.7", "13.10"],
+            ),
+            EarMasterLesson::new(
+                "13.14",
+                "Minor 2nd & Major 2nd - Descending",
+                vec!["13.8", "13.11"],
+            ),
+            EarMasterLesson::new(
+                "13.15",
+                "Minor 2nd & Major 2nd - Harmonic",
+                vec!["13.9", "13.12"],
+            ),
+            EarMasterLesson::new(
+                "13.16",
+                "Minor 7th & Major 7th - Ascending",
+                vec!["13.7", "13.10"],
+            ),
+            EarMasterLesson::new(
+                "13.17",
+                "Minor 7th & Major 7th - Descending",
+                vec!["13.8", "13.11"],
+            ),
+            EarMasterLesson::new(
+                "13.18",
+                "Minor 7th & Major 7th - Harmonic",
+                vec!["13.9", "13.12"],
+            ),
+            EarMasterLesson::new(
+                "13.19",
+                "Test: Dissonant intervals with nearby first tones",
+                vec!["13.13", "13.14", "13.15", "13.16", "13.17", "13.18"],
+            ),
+            // Unit 14 - Compare all simple intervals - nearby 1st tones.
+            EarMasterLesson::new(
+                "14.1",
+                "All intervals from Minor 6th to Major 7th - Ascending",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.2",
+                "All intervals from Minor 6th to Major 7th - Descending",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.3",
+                "All intervals from Minor 6th to Major 7th - Harmonic",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.4",
+                "All intervals from Perfect 5th to Octave - Ascending",
+                vec!["14.1"],
+            ),
+            EarMasterLesson::new(
+                "14.5",
+                "All intervals from Perfect 5th to Octave - Descending",
+                vec!["14.2"],
+            ),
+            EarMasterLesson::new(
+                "14.6",
+                "All intervals from Perfect 5th to Octave - Harmonic",
+                vec!["14.3"],
+            ),
+            EarMasterLesson::new(
+                "14.7",
+                "All intervals from Minor 2nd to Major 3rd - Ascending",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.8",
+                "All intervals from Minor 2nd to Major 3rd - Descending",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.9",
+                "All intervals from Minor 2nd to Major 3rd - Harmonic",
+                vec!["13.19"],
+            ),
+            EarMasterLesson::new(
+                "14.10",
+                "All intervals from Minor 2nd to Dim 5th - Ascending",
+                vec!["14.7"],
+            ),
+            EarMasterLesson::new(
+                "14.11",
+                "All intervals from Minor 2nd to Dim 5th - Descending",
+                vec!["14.8"],
+            ),
+            EarMasterLesson::new(
+                "14.12",
+                "All intervals from Minor 2nd to Dim 5th - Harmonic",
+                vec!["14.9"],
+            ),
+            EarMasterLesson::new(
+                "14.13",
+                "Test: Simple intervals with nearby first tones",
+                vec!["14.4", "14.5", "14.6", "14.10", "14.11", "14.12"],
+            ),
+            // Unit 15 - Compare compound intervals up to 2 octaves - nearby 1st tones.
+            EarMasterLesson::new(
+                "15.1",
+                "Perfect 11th, Perfect 12th & Two Octaves - Ascending",
+                vec!["14.13"],
+            ),
+            EarMasterLesson::new(
+                "15.2",
+                "Perfect 11th, Perfect 12th & Two Octaves - Descending",
+                vec!["14.13"],
+            ),
+            EarMasterLesson::new(
+                "15.3",
+                "Perfect 11th, Perfect 12th & Two Octaves - Harmonic",
+                vec!["14.13"],
+            ),
+            EarMasterLesson::new(
+                "15.4",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Ascending",
+                vec!["15.1"],
+            ),
+            EarMasterLesson::new(
+                "15.5",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Descending",
+                vec!["15.2"],
+            ),
+            EarMasterLesson::new(
+                "15.6",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Harmonic",
+                vec!["15.3"],
+            ),
+            EarMasterLesson::new(
+                "15.7",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Ascending",
+                vec!["15.4"],
+            ),
+            EarMasterLesson::new(
+                "15.8",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Descending",
+                vec!["15.5"],
+            ),
+            EarMasterLesson::new(
+                "15.9",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Harmonic",
+                vec!["15.6"],
+            ),
+            EarMasterLesson::new(
+                "15.10",
+                "Test: Compound intervals with nearby first tones",
+                vec!["15.7", "15.8", "15.9"],
+            ),
+            // Unit 16: Compare the perfect intervals - no common tones.
+            EarMasterLesson::new("16.1", "Perfect 4th & Octave  - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("16.2", "Perfect 4th & Octave  - Descending", vec!["15.10"]),
+            EarMasterLesson::new("16.3", "Perfect 4th & Octave  - Harmonic", vec!["15.10"]),
+            EarMasterLesson::new("16.4", "Perfect 5th & Octave  - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("16.5", "Perfect 5th & Octave  - Descending", vec!["15.10"]),
+            EarMasterLesson::new("16.6", "Perfect 5th & Octave  - Harmonic", vec!["15.10"]),
+            EarMasterLesson::new(
+                "16.7",
+                "Perfect 4th & Perfect 5th - Ascending",
+                vec!["16.1", "16.4"],
+            ),
+            EarMasterLesson::new(
+                "16.8",
+                "Perfect 4th & Perfect 5th - Descending",
+                vec!["16.2", "16.5"],
+            ),
+            EarMasterLesson::new(
+                "16.9",
+                "Perfect 4th & Perfect 5th - Harmonic",
+                vec!["16.3", "16.6"],
+            ),
+            EarMasterLesson::new(
+                "16.10",
+                "Test: Perfect intervals without common tone",
+                vec!["16.7", "16.8", "16.9"],
+            ),
+            // Unit 17: Compare the imperfect consonant intervals - no common tones.
+            EarMasterLesson::new("17.1", "Major 3rd & Minor 6th - Ascending", vec!["16.10"]),
+            EarMasterLesson::new("17.2", "Major 3rd & Minor 6th - Descending", vec!["16.10"]),
+            EarMasterLesson::new("17.3", "Major 3rd & Minor 6th - Harmonic", vec!["16.10"]),
+            EarMasterLesson::new("17.4", "Minor 3rd & Major 6th - Ascending", vec!["16.10"]),
+            EarMasterLesson::new("17.5", "Minor 3rd & Major 6th - Descending", vec!["16.10"]),
+            EarMasterLesson::new("17.6", "Minor 3rd & Major 6th - Harmonic", vec!["16.10"]),
+            EarMasterLesson::new(
+                "17.7",
+                "Major 3rd & Minor 3rd - Ascending",
+                vec!["17.1", "17.4"],
+            ),
+            EarMasterLesson::new(
+                "17.8",
+                "Major 3rd & Minor 3rd - Descending",
+                vec!["17.2", "17.5"],
+            ),
+            EarMasterLesson::new(
+                "17.9",
+                "Major 3rd & Minor 3rd - Harmonic",
+                vec!["17.3", "17.6"],
+            ),
+            EarMasterLesson::new(
+                "17.10",
+                "Minor 6th & Major 6th - Ascending",
+                vec!["17.1", "17.4"],
+            ),
+            EarMasterLesson::new(
+                "17.11",
+                "Minor 6th & Major 6th - Descending",
+                vec!["17.2", "17.5"],
+            ),
+            EarMasterLesson::new(
+                "17.12",
+                "Minor 6th & Major 6th - Harmonic",
+                vec!["17.3", "17.6"],
+            ),
+            EarMasterLesson::new(
+                "17.13",
+                "Test: Imperfect consonant intervals without common tone",
+                vec!["17.7", "17.8", "17.9", "17.10", "17.11", "17.12"],
+            ),
+            // Unit 18 - Compare all the dissonant intervals - no common tones.
+            EarMasterLesson::new("18.1", "Major 2nd & Minor 7th - Ascending", vec!["17.13"]),
+            EarMasterLesson::new("18.2", "Major 2nd & Minor 7th - Descending", vec!["17.13"]),
+            EarMasterLesson::new("18.3", "Major 2nd & Minor 7th - Harmonic", vec!["17.13"]),
+            EarMasterLesson::new("18.4", "Minor 2nd & Major 7th - Ascending", vec!["17.13"]),
+            EarMasterLesson::new("18.5", "Minor 2nd & Major 7th - Descending", vec!["17.13"]),
+            EarMasterLesson::new("18.6", "Minor 2nd & Major 7th - Harmonic", vec!["17.13"]),
+            EarMasterLesson::new(
+                "18.7",
+                "Major 2nd, Dim 5th & Minor 7th - Ascending",
+                vec!["18.1", "18.4"],
+            ),
+            EarMasterLesson::new(
+                "18.8",
+                "Major 2nd, Dim 5th & Minor 7th - Descending",
+                vec!["18.2", "18.5"],
+            ),
+            EarMasterLesson::new(
+                "18.9",
+                "Major 2nd, Dim 5th & Minor 7th - Harmonic",
+                vec!["18.3", "18.6"],
+            ),
+            EarMasterLesson::new(
+                "18.10",
+                "Minor 2nd, Dim 5th & Major 7th - Ascending",
+                vec!["18.1", "18.4"],
+            ),
+            EarMasterLesson::new(
+                "18.11",
+                "Minor 2nd, Dim 5th & Major 7th - Descending",
+                vec!["18.2", "18.5"],
+            ),
+            EarMasterLesson::new(
+                "18.12",
+                "Minor 2nd, Dim 5th & Major 7th - Harmonic",
+                vec!["18.3", "18.6"],
+            ),
+            EarMasterLesson::new(
+                "18.13",
+                "Minor 2nd & Major 2nd - Ascending",
+                vec!["18.7", "18.10"],
+            ),
+            EarMasterLesson::new(
+                "18.14",
+                "Minor 2nd & Major 2nd - Descending",
+                vec!["18.8", "18.11"],
+            ),
+            EarMasterLesson::new(
+                "18.15",
+                "Minor 2nd & Major 2nd - Harmonic",
+                vec!["18.9", "18.12"],
+            ),
+            EarMasterLesson::new(
+                "18.16",
+                "Minor 7th & Major 7th - Ascending",
+                vec!["18.7", "18.10"],
+            ),
+            EarMasterLesson::new(
+                "18.17",
+                "Minor 7th & Major 7th - Descending",
+                vec!["18.8", "18.11"],
+            ),
+            EarMasterLesson::new(
+                "18.18",
+                "Minor 7th & Major 7th - Harmonic",
+                vec!["18.9", "18.12"],
+            ),
+            EarMasterLesson::new(
+                "18.19",
+                "Test: Dissonant intervals without common tone",
+                vec!["18.13", "18.14", "18.15", "18.16", "18.17", "18.18"],
+            ),
+            // Unit 19 - Compare all simple intervals - no common tones.
+            EarMasterLesson::new(
+                "19.1",
+                "All intervals from Minor 6th to Major 7th - Ascending",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.2",
+                "All intervals from Minor 6th to Major 7th - Descending",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.3",
+                "All intervals from Minor 6th to Major 7th - Harmonic",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.4",
+                "All intervals from Perfect 5th to Octave - Ascending",
+                vec!["19.1"],
+            ),
+            EarMasterLesson::new(
+                "19.5",
+                "All intervals from Perfect 5th to Octave - Descending",
+                vec!["19.2"],
+            ),
+            EarMasterLesson::new(
+                "19.6",
+                "All intervals from Perfect 5th to Octave - Harmonic",
+                vec!["19.3"],
+            ),
+            EarMasterLesson::new(
+                "19.7",
+                "All intervals from Minor 2nd to Major 3rd - Ascending",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.8",
+                "All intervals from Minor 2nd to Major 3rd - Descending",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.9",
+                "All intervals from Minor 2nd to Major 3rd - Harmonic",
+                vec!["18.19"],
+            ),
+            EarMasterLesson::new(
+                "19.10",
+                "All intervals from Minor 2nd to Dim 5th - Ascending",
+                vec!["19.7"],
+            ),
+            EarMasterLesson::new(
+                "19.11",
+                "All intervals from Minor 2nd to Dim 5th - Descending",
+                vec!["19.8"],
+            ),
+            EarMasterLesson::new(
+                "19.12",
+                "All intervals from Minor 2nd to Dim 5th - Harmonic",
+                vec!["19.9"],
+            ),
+            EarMasterLesson::new(
+                "19.13",
+                "Test: Simple intervals without common tone",
+                vec!["19.4", "19.5", "19.6", "19.10", "19.11", "19.12"],
+            ),
+            // Unit 20 - Compare compound intervals up to 2 octaves - no common tones.
+            EarMasterLesson::new(
+                "20.1",
+                "Perfect 11th, Perfect 12th & Two Octaves - Ascending",
+                vec!["19.13"],
+            ),
+            EarMasterLesson::new(
+                "20.2",
+                "Perfect 11th, Perfect 12th & Two Octaves - Descending",
+                vec!["19.13"],
+            ),
+            EarMasterLesson::new(
+                "20.3",
+                "Perfect 11th, Perfect 12th & Two Octaves - Harmonic",
+                vec!["19.13"],
+            ),
+            EarMasterLesson::new(
+                "20.4",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Ascending",
+                vec!["20.1"],
+            ),
+            EarMasterLesson::new(
+                "20.5",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Descending",
+                vec!["20.2"],
+            ),
+            EarMasterLesson::new(
+                "20.6",
+                "Minor 10th, Major 10th, Minor 13th & Major 13th - Harmonic",
+                vec!["20.3"],
+            ),
+            EarMasterLesson::new(
+                "20.7",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Ascending",
+                vec!["20.4"],
+            ),
+            EarMasterLesson::new(
+                "20.8",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Descending",
+                vec!["20.5"],
+            ),
+            EarMasterLesson::new(
+                "20.9",
+                "Minor 9th, Major 9th, Perfect 12th, Minor 14th & Major 14th - Harmonic",
+                vec!["20.6"],
+            ),
+            EarMasterLesson::new(
+                "20.10",
+                "Test: Compound intervals without common tone",
+                vec!["20.7", "20.8", "20.9"],
+            ),
         ],
     };
     earmaster_course.course_builder()

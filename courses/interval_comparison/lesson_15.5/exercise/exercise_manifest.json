@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::15.5::exercise",
+  "lesson_id": "trane::music::earmaster::interval_comparison::15.5",
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Minor 10th, Major 10th, Minor 13th & Major 13th - Descending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

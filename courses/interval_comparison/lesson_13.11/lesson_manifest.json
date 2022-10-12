@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::13.11",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::13.2",
+    "trane::music::earmaster::interval_comparison::13.5"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Minor 2nd, Dim 5th & Major 7th - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

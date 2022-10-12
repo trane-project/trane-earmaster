@@ -1,0 +1,17 @@
+{
+  "id": "trane::music::earmaster::interval_comparison::13.19",
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison::13.13",
+    "trane::music::earmaster::interval_comparison::13.14",
+    "trane::music::earmaster::interval_comparison::13.15",
+    "trane::music::earmaster::interval_comparison::13.16",
+    "trane::music::earmaster::interval_comparison::13.17",
+    "trane::music::earmaster::interval_comparison::13.18"
+  ],
+  "course_id": "trane::music::earmaster::interval_comparison",
+  "name": "Test: Dissonant intervals with nearby first tones",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}
