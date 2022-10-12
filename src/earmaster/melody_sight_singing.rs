@@ -1,7 +1,7 @@
 use std::collections::BTreeMap;
 
 use lazy_static::lazy_static;
-use trane::course_builder::CourseBuilder;
+use trane::course_builder::{music::MusicMetadata, CourseBuilder};
 use ustr::Ustr;
 
 use super::{EarMasterCourse, EarMasterLesson};
@@ -15,7 +15,10 @@ pub fn course_builder() -> CourseBuilder {
         id: *COURSE_ID,
         name: "Melody Sight-Singing".to_string(),
         directory_name: "melody_sight_singing".to_string(),
-        metadata: Some(BTreeMap::from([])),
+        metadata: Some(BTreeMap::from([(
+            MusicMetadata::MusicalConcept.to_string(),
+            vec!["melody".to_string()],
+        )])),
         lessons: vec![
             // Unit 1 - 3 to 4 tones from the C Major scale
             EarMasterLesson::new("1.1", "Do, Re - 3 tones", vec![]),
