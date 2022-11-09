@@ -48,12 +48,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["1.8", "1.9", "1.10"],
             ),
             // Unit 2 - Compare the imperfect consonant intervals - common 1st tone.
-            EarMasterLesson::new("2.2", "Major 3rd & Minor 6th - Ascending", vec!["1.11"]),
-            EarMasterLesson::new("2.3", "Major 3rd & Minor 6th - Descending", vec!["1.11"]),
-            EarMasterLesson::new("2.4", "Major 3rd & Minor 6th - Harmonic", vec!["1.11"]),
-            EarMasterLesson::new("2.5", "Minor 3rd & Major 6th - Ascending", vec!["1.11"]),
-            EarMasterLesson::new("2.6", "Minor 3rd & Major 6th - Descending", vec!["1.11"]),
-            EarMasterLesson::new("2.7", "Minor 3rd & Major 6th - Harmonic", vec!["1.11"]),
+            EarMasterLesson::new("2.2", "Major 3rd & Minor 6th - Ascending", vec![]),
+            EarMasterLesson::new("2.3", "Major 3rd & Minor 6th - Descending", vec![]),
+            EarMasterLesson::new("2.4", "Major 3rd & Minor 6th - Harmonic", vec![]),
+            EarMasterLesson::new("2.5", "Minor 3rd & Major 6th - Ascending", vec![]),
+            EarMasterLesson::new("2.6", "Minor 3rd & Major 6th - Descending", vec![]),
+            EarMasterLesson::new("2.7", "Minor 3rd & Major 6th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "2.8",
                 "Minor 3rd & Major 3rd - Ascending",
@@ -90,12 +90,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["2.8", "2.9", "2.10", "2.11", "2.12", "2.13"],
             ),
             // Unit 3 - Compare the dissonant intervals - common 1st tone.
-            EarMasterLesson::new("3.2", "Major 2nd & Minor 7th - Ascending", vec!["2.14"]),
-            EarMasterLesson::new("3.3", "Major 2nd & Minor 7th - Descending", vec!["2.14"]),
-            EarMasterLesson::new("3.4", "Major 2nd & Minor 7th - Harmonic", vec!["2.14"]),
-            EarMasterLesson::new("3.5", "Minor 2nd & Major 7th - Ascending", vec!["2.14"]),
-            EarMasterLesson::new("3.6", "Minor 2nd & Major 7th - Descending", vec!["2.14"]),
-            EarMasterLesson::new("3.7", "Minor 2nd & Major 7th - Harmonic", vec!["2.14"]),
+            EarMasterLesson::new("3.2", "Major 2nd & Minor 7th - Ascending", vec![]),
+            EarMasterLesson::new("3.3", "Major 2nd & Minor 7th - Descending", vec![]),
+            EarMasterLesson::new("3.4", "Major 2nd & Minor 7th - Harmonic", vec![]),
+            EarMasterLesson::new("3.5", "Minor 2nd & Major 7th - Ascending", vec![]),
+            EarMasterLesson::new("3.6", "Minor 2nd & Major 7th - Descending", vec![]),
+            EarMasterLesson::new("3.7", "Minor 2nd & Major 7th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "3.8",
                 "Major 2nd, Dim 5th & Minor 7th - Ascending",
@@ -165,17 +165,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "4.1",
                 "All intervals from Minor 6th to Major 7th - Ascending",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.2",
                 "All intervals from Minor 6th to Major 7th - Descending",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.3",
                 "All intervals from Minor 6th to Major 7th - Harmonic",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.4",
@@ -195,17 +195,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "4.7",
                 "All intervals from Minor 2nd to Major 3rd - Ascending",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.8",
                 "All intervals from Minor 2nd to Major 3rd - Descending",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.9",
                 "All intervals from Minor 2nd to Major 3rd - Harmonic",
-                vec!["3.20"],
+                vec!["1.11", "2.14", "3.20"],
             ),
             EarMasterLesson::new(
                 "4.10",
@@ -306,12 +306,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["6.7", "6.8", "6.9"],
             ),
             // Unit 7: Compare the imperfect consonant intervals - common 1st or 2nd tone.
-            EarMasterLesson::new("7.1", "Major 3rd & Minor 6th - Ascending", vec!["6.10"]),
-            EarMasterLesson::new("7.2", "Major 3rd & Minor 6th - Descending", vec!["6.10"]),
-            EarMasterLesson::new("7.3", "Major 3rd & Minor 6th - Harmonic", vec!["6.10"]),
-            EarMasterLesson::new("7.4", "Minor 3rd & Major 6th - Ascending", vec!["6.10"]),
-            EarMasterLesson::new("7.5", "Minor 3rd & Major 6th - Descending", vec!["6.10"]),
-            EarMasterLesson::new("7.6", "Minor 3rd & Major 6th - Harmonic", vec!["6.10"]),
+            EarMasterLesson::new("7.1", "Major 3rd & Minor 6th - Ascending", vec!["5.11"]),
+            EarMasterLesson::new("7.2", "Major 3rd & Minor 6th - Descending", vec!["5.11"]),
+            EarMasterLesson::new("7.3", "Major 3rd & Minor 6th - Harmonic", vec!["5.11"]),
+            EarMasterLesson::new("7.4", "Minor 3rd & Major 6th - Ascending", vec!["5.11"]),
+            EarMasterLesson::new("7.5", "Minor 3rd & Major 6th - Descending", vec!["5.11"]),
+            EarMasterLesson::new("7.6", "Minor 3rd & Major 6th - Harmonic", vec!["5.11"]),
             EarMasterLesson::new(
                 "7.7",
                 "Major 3rd & Minor 3rd - Ascending",
@@ -348,12 +348,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["7.7", "7.8", "7.9", "7.10", "7.11", "7.12"],
             ),
             // Unit 8 - Compare all the dissonant intervals - common 1st or 2nd tone.
-            EarMasterLesson::new("8.1", "Major 2nd & Minor 7th - Ascending", vec!["7.13"]),
-            EarMasterLesson::new("8.2", "Major 2nd & Minor 7th - Descending", vec!["7.13"]),
-            EarMasterLesson::new("8.3", "Major 2nd & Minor 7th - Harmonic", vec!["7.13"]),
-            EarMasterLesson::new("8.4", "Minor 2nd & Major 7th - Ascending", vec!["7.13"]),
-            EarMasterLesson::new("8.5", "Minor 2nd & Major 7th - Descending", vec!["7.13"]),
-            EarMasterLesson::new("8.6", "Minor 2nd & Major 7th - Harmonic", vec!["7.13"]),
+            EarMasterLesson::new("8.1", "Major 2nd & Minor 7th - Ascending", vec!["5.11"]),
+            EarMasterLesson::new("8.2", "Major 2nd & Minor 7th - Descending", vec!["5.11"]),
+            EarMasterLesson::new("8.3", "Major 2nd & Minor 7th - Harmonic", vec!["5.11"]),
+            EarMasterLesson::new("8.4", "Minor 2nd & Major 7th - Ascending", vec!["5.11"]),
+            EarMasterLesson::new("8.5", "Minor 2nd & Major 7th - Descending", vec!["5.11"]),
+            EarMasterLesson::new("8.6", "Minor 2nd & Major 7th - Harmonic", vec!["5.11"]),
             EarMasterLesson::new(
                 "8.7",
                 "Major 2nd, Dim 5th & Minor 7th - Ascending",
@@ -423,17 +423,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "9.1",
                 "All intervals from Minor 6th to Major 7th - Ascending",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.2",
                 "All intervals from Minor 6th to Major 7th - Descending",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.3",
                 "All intervals from Minor 6th to Major 7th - Harmonic",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.4",
@@ -453,17 +453,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "9.7",
                 "All intervals from Minor 2nd to Major 3rd - Ascending",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.8",
                 "All intervals from Minor 2nd to Major 3rd - Descending",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.9",
                 "All intervals from Minor 2nd to Major 3rd - Harmonic",
-                vec!["8.19"],
+                vec!["6.10", "7.13", "8.19"],
             ),
             EarMasterLesson::new(
                 "9.10",
@@ -564,12 +564,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["11.7", "11.8", "11.9"],
             ),
             // Unit 12: Compare the imperfect consonant intervals - nearby 1st tones.
-            EarMasterLesson::new("12.1", "Major 3rd & Minor 6th - Ascending", vec!["11.10"]),
-            EarMasterLesson::new("12.2", "Major 3rd & Minor 6th - Descending", vec!["11.10"]),
-            EarMasterLesson::new("12.3", "Major 3rd & Minor 6th - Harmonic", vec!["11.10"]),
-            EarMasterLesson::new("12.4", "Minor 3rd & Major 6th - Ascending", vec!["11.10"]),
-            EarMasterLesson::new("12.5", "Minor 3rd & Major 6th - Descending", vec!["11.10"]),
-            EarMasterLesson::new("12.6", "Minor 3rd & Major 6th - Harmonic", vec!["11.10"]),
+            EarMasterLesson::new("12.1", "Major 3rd & Minor 6th - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("12.2", "Major 3rd & Minor 6th - Descending", vec!["10.10"]),
+            EarMasterLesson::new("12.3", "Major 3rd & Minor 6th - Harmonic", vec!["10.10"]),
+            EarMasterLesson::new("12.4", "Minor 3rd & Major 6th - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("12.5", "Minor 3rd & Major 6th - Descending", vec!["10.10"]),
+            EarMasterLesson::new("12.6", "Minor 3rd & Major 6th - Harmonic", vec!["10.10"]),
             EarMasterLesson::new(
                 "12.7",
                 "Major 3rd & Minor 3rd - Ascending",
@@ -606,12 +606,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["12.7", "12.8", "12.9", "12.10", "12.11", "12.12"],
             ),
             // Unit 13 - Compare all the dissonant intervals - nearby 1st tones.
-            EarMasterLesson::new("13.1", "Major 2nd & Minor 7th - Ascending", vec!["12.13"]),
-            EarMasterLesson::new("13.2", "Major 2nd & Minor 7th - Descending", vec!["12.13"]),
-            EarMasterLesson::new("13.3", "Major 2nd & Minor 7th - Harmonic", vec!["12.13"]),
-            EarMasterLesson::new("13.4", "Minor 2nd & Major 7th - Ascending", vec!["12.13"]),
-            EarMasterLesson::new("13.5", "Minor 2nd & Major 7th - Descending", vec!["12.13"]),
-            EarMasterLesson::new("13.6", "Minor 2nd & Major 7th - Harmonic", vec!["12.13"]),
+            EarMasterLesson::new("13.1", "Major 2nd & Minor 7th - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("13.2", "Major 2nd & Minor 7th - Descending", vec!["10.10"]),
+            EarMasterLesson::new("13.3", "Major 2nd & Minor 7th - Harmonic", vec!["10.10"]),
+            EarMasterLesson::new("13.4", "Minor 2nd & Major 7th - Ascending", vec!["10.10"]),
+            EarMasterLesson::new("13.5", "Minor 2nd & Major 7th - Descending", vec!["10.10"]),
+            EarMasterLesson::new("13.6", "Minor 2nd & Major 7th - Harmonic", vec!["10.10"]),
             EarMasterLesson::new(
                 "13.7",
                 "Major 2nd, Dim 5th & Minor 7th - Ascending",
@@ -681,17 +681,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "14.1",
                 "All intervals from Minor 6th to Major 7th - Ascending",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.2",
                 "All intervals from Minor 6th to Major 7th - Descending",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.3",
                 "All intervals from Minor 6th to Major 7th - Harmonic",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.4",
@@ -711,17 +711,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "14.7",
                 "All intervals from Minor 2nd to Major 3rd - Ascending",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.8",
                 "All intervals from Minor 2nd to Major 3rd - Descending",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.9",
                 "All intervals from Minor 2nd to Major 3rd - Harmonic",
-                vec!["13.19"],
+                vec!["11.10", "12.13", "13.19"],
             ),
             EarMasterLesson::new(
                 "14.10",
@@ -822,12 +822,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["16.7", "16.8", "16.9"],
             ),
             // Unit 17: Compare the imperfect consonant intervals - no common tones.
-            EarMasterLesson::new("17.1", "Major 3rd & Minor 6th - Ascending", vec!["16.10"]),
-            EarMasterLesson::new("17.2", "Major 3rd & Minor 6th - Descending", vec!["16.10"]),
-            EarMasterLesson::new("17.3", "Major 3rd & Minor 6th - Harmonic", vec!["16.10"]),
-            EarMasterLesson::new("17.4", "Minor 3rd & Major 6th - Ascending", vec!["16.10"]),
-            EarMasterLesson::new("17.5", "Minor 3rd & Major 6th - Descending", vec!["16.10"]),
-            EarMasterLesson::new("17.6", "Minor 3rd & Major 6th - Harmonic", vec!["16.10"]),
+            EarMasterLesson::new("17.1", "Major 3rd & Minor 6th - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("17.2", "Major 3rd & Minor 6th - Descending", vec!["15.10"]),
+            EarMasterLesson::new("17.3", "Major 3rd & Minor 6th - Harmonic", vec!["15.10"]),
+            EarMasterLesson::new("17.4", "Minor 3rd & Major 6th - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("17.5", "Minor 3rd & Major 6th - Descending", vec!["15.10"]),
+            EarMasterLesson::new("17.6", "Minor 3rd & Major 6th - Harmonic", vec!["15.10"]),
             EarMasterLesson::new(
                 "17.7",
                 "Major 3rd & Minor 3rd - Ascending",
@@ -864,12 +864,12 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["17.7", "17.8", "17.9", "17.10", "17.11", "17.12"],
             ),
             // Unit 18 - Compare all the dissonant intervals - no common tones.
-            EarMasterLesson::new("18.1", "Major 2nd & Minor 7th - Ascending", vec!["17.13"]),
-            EarMasterLesson::new("18.2", "Major 2nd & Minor 7th - Descending", vec!["17.13"]),
-            EarMasterLesson::new("18.3", "Major 2nd & Minor 7th - Harmonic", vec!["17.13"]),
-            EarMasterLesson::new("18.4", "Minor 2nd & Major 7th - Ascending", vec!["17.13"]),
-            EarMasterLesson::new("18.5", "Minor 2nd & Major 7th - Descending", vec!["17.13"]),
-            EarMasterLesson::new("18.6", "Minor 2nd & Major 7th - Harmonic", vec!["17.13"]),
+            EarMasterLesson::new("18.1", "Major 2nd & Minor 7th - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("18.2", "Major 2nd & Minor 7th - Descending", vec!["15.10"]),
+            EarMasterLesson::new("18.3", "Major 2nd & Minor 7th - Harmonic", vec!["15.10"]),
+            EarMasterLesson::new("18.4", "Minor 2nd & Major 7th - Ascending", vec!["15.10"]),
+            EarMasterLesson::new("18.5", "Minor 2nd & Major 7th - Descending", vec!["15.10"]),
+            EarMasterLesson::new("18.6", "Minor 2nd & Major 7th - Harmonic", vec!["15.10"]),
             EarMasterLesson::new(
                 "18.7",
                 "Major 2nd, Dim 5th & Minor 7th - Ascending",
@@ -939,17 +939,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "19.1",
                 "All intervals from Minor 6th to Major 7th - Ascending",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.2",
                 "All intervals from Minor 6th to Major 7th - Descending",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.3",
                 "All intervals from Minor 6th to Major 7th - Harmonic",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.4",
@@ -969,17 +969,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "19.7",
                 "All intervals from Minor 2nd to Major 3rd - Ascending",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.8",
                 "All intervals from Minor 2nd to Major 3rd - Descending",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.9",
                 "All intervals from Minor 2nd to Major 3rd - Harmonic",
-                vec!["18.19"],
+                vec!["16.10", "17.13", "18.19"],
             ),
             EarMasterLesson::new(
                 "19.10",

@@ -1,6 +1,8 @@
 {
   "id": "trane::music::earmaster::interval_comparison::9.8",
   "dependencies": [
+    "trane::music::earmaster::interval_comparison::6.10",
+    "trane::music::earmaster::interval_comparison::7.13",
     "trane::music::earmaster::interval_comparison::8.19"
   ],
   "course_id": "trane::music::earmaster::interval_comparison",

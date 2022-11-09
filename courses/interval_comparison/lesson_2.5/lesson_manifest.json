@@ -1,8 +1,6 @@
 {
   "id": "trane::music::earmaster::interval_comparison::2.5",
-  "dependencies": [
-    "trane::music::earmaster::interval_comparison::1.11"
-  ],
+  "dependencies": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Minor 3rd & Major 6th - Ascending",
   "description": null,
