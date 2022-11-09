@@ -1,8 +1,6 @@
 {
   "id": "trane::music::earmaster::interval_identification::13.1",
-  "dependencies": [
-    "trane::music::earmaster::interval_identification::12.4"
-  ],
+  "dependencies": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Unison & Octave - Harmonic",
   "description": null,

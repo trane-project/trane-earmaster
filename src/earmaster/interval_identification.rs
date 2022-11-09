@@ -60,18 +60,18 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["3.1", "3.2", "3.3"],
             ),
             // Unit 4.
-            EarMasterLesson::new("4.1", "Perfect 4th & Dim 5th - Ascending", vec!["3.4"]),
-            EarMasterLesson::new("4.2", "Perfect 4th & Dim 5th - Descending", vec!["3.4"]),
-            EarMasterLesson::new("4.3", "Perfect 4th & Dim 5th - Harmonic", vec!["3.4"]),
+            EarMasterLesson::new("4.1", "Perfect 4th & Dim 5th - Ascending", vec![]),
+            EarMasterLesson::new("4.2", "Perfect 4th & Dim 5th - Descending", vec![]),
+            EarMasterLesson::new("4.3", "Perfect 4th & Dim 5th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "4.4",
                 "Perfect 4th & Dim 5th - Ascending, Descending & Harmonic",
                 vec!["4.1", "4.2", "4.3"],
             ),
             // Unit 5.
-            EarMasterLesson::new("5.1", "Dim 5th & Perfect 5th - Ascending", vec!["3.4"]),
-            EarMasterLesson::new("5.2", "Dim 5th & Perfect 5th - Descending", vec!["3.4"]),
-            EarMasterLesson::new("5.3", "Dim 5th & Perfect 5th - Harmonic", vec!["3.4"]),
+            EarMasterLesson::new("5.1", "Dim 5th & Perfect 5th - Ascending", vec![]),
+            EarMasterLesson::new("5.2", "Dim 5th & Perfect 5th - Descending", vec![]),
+            EarMasterLesson::new("5.3", "Dim 5th & Perfect 5th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "5.4",
                 "Dim 5th & Perfect 5th - Ascending, Descending & Harmonic",
@@ -120,18 +120,18 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["7.1", "7.2", "7.3"],
             ),
             // Unit 8.
-            EarMasterLesson::new("8.1", "Major 6th & Minor 6th - Ascending", vec!["7.4"]),
-            EarMasterLesson::new("8.2", "Major 6th & Minor 6th - Descending", vec!["7.4"]),
-            EarMasterLesson::new("8.3", "Major 6th & Minor 6th - Harmonic", vec!["7.4"]),
+            EarMasterLesson::new("8.1", "Major 6th & Minor 6th - Ascending", vec![]),
+            EarMasterLesson::new("8.2", "Major 6th & Minor 6th - Descending", vec![]),
+            EarMasterLesson::new("8.3", "Major 6th & Minor 6th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "8.4",
                 "Major 6th & Minor 6th - Ascending, Descending & Harmonic",
                 vec!["8.1", "8.2", "8.3"],
             ),
             // Unit 9.
-            EarMasterLesson::new("9.1", "Major 7th & Minor 7th - Ascending", vec!["7.4"]),
-            EarMasterLesson::new("9.2", "Major 7th & Minor 7th - Descending", vec!["7.4"]),
-            EarMasterLesson::new("9.3", "Major 7th & Minor 7th - Harmonic", vec!["7.4"]),
+            EarMasterLesson::new("9.1", "Major 7th & Minor 7th - Ascending", vec![]),
+            EarMasterLesson::new("9.2", "Major 7th & Minor 7th - Descending", vec![]),
+            EarMasterLesson::new("9.3", "Major 7th & Minor 7th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "9.4",
                 "Major 7th & Minor 7th - Ascending, Descending & Harmonic",
@@ -201,13 +201,13 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["12.1", "12.2", "12.3"],
             ),
             // Unit 13.
-            EarMasterLesson::new("13.1", "Unison & Octave - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("13.1", "Unison & Octave - Harmonic", vec![]),
             EarMasterLesson::new(
                 "13.2",
                 "Unison & Octave - Ascending, Descending & Harmonic",
                 vec!["13.1"],
             ),
-            EarMasterLesson::new("13.3", "Perfect 4th & Perfect 5th - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("13.3", "Perfect 4th & Perfect 5th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "13.4",
                 "Perfect 4th & Perfect 5th - Ascending, Descending & Harmonic",
@@ -234,13 +234,13 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["13.5", "13.6", "13.7"],
             ),
             // Unit 14.
-            EarMasterLesson::new("14.1", "Minor 3rd & Major 6th - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("14.1", "Minor 3rd & Major 6th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "14.2",
                 "Minor 3rd & Major 6th - Ascending, Descending & Harmonic",
                 vec!["14.1"],
             ),
-            EarMasterLesson::new("14.3", "Major 3rd & Minor 6th - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("14.3", "Major 3rd & Minor 6th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "14.4",
                 "Major 3rd & Minor 6th - Ascending, Descending & Harmonic",
@@ -267,13 +267,13 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["14.5", "14.6", "14.7"],
             ),
             // Unit 15.
-            EarMasterLesson::new("15.1", "Minor 2nd & Major 7th - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("15.1", "Minor 2nd & Major 7th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "15.2",
                 "Minor 2nd & Major 7th - Ascending, Descending & Harmonic",
                 vec!["15.1"],
             ),
-            EarMasterLesson::new("15.3", "Major 2nd & Minor 7th - Harmonic", vec!["12.4"]),
+            EarMasterLesson::new("15.3", "Major 2nd & Minor 7th - Harmonic", vec![]),
             EarMasterLesson::new(
                 "15.4",
                 "Major 2nd & Minor 7th - Ascending, Descending & Harmonic",
@@ -354,17 +354,17 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "16.1",
                 "All intervals from Unison to Octave - Ascending",
-                vec!["13.8", "14.8", "15.18"],
+                vec!["12.4", "13.8", "14.8", "15.18"],
             ),
             EarMasterLesson::new(
                 "16.2",
                 "All intervals from Unison to Octave - Descending",
-                vec!["16.1"],
+                vec!["12.4", "13.8", "14.8", "15.18"],
             ),
             EarMasterLesson::new(
                 "16.3",
                 "All intervals from Unison to Octave - Harmonic",
-                vec!["16.1"],
+                vec!["12.4", "13.8", "14.8", "15.18"],
             ),
             EarMasterLesson::new(
                 "16.4",

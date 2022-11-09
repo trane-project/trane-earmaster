@@ -1,8 +1,6 @@
 {
   "id": "trane::music::earmaster::interval_identification::5.3",
-  "dependencies": [
-    "trane::music::earmaster::interval_identification::3.4"
-  ],
+  "dependencies": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Dim 5th & Perfect 5th - Harmonic",
   "description": null,
