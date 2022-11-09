@@ -1,7 +1,10 @@
 {
   "id": "trane::music::earmaster::interval_identification::16.3",
   "dependencies": [
-    "trane::music::earmaster::interval_identification::16.1"
+    "trane::music::earmaster::interval_identification::12.4",
+    "trane::music::earmaster::interval_identification::13.8",
+    "trane::music::earmaster::interval_identification::14.8",
+    "trane::music::earmaster::interval_identification::15.18"
   ],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "All intervals from Unison to Octave - Harmonic",

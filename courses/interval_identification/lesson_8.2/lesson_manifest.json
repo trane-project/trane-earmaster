@@ -1,8 +1,6 @@
 {
   "id": "trane::music::earmaster::interval_identification::8.2",
-  "dependencies": [
-    "trane::music::earmaster::interval_identification::7.4"
-  ],
+  "dependencies": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Major 6th & Minor 6th - Descending",
   "description": null,
