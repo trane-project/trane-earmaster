@@ -154,6 +154,7 @@ impl EarMasterCourse {
                     path: "instructions.md".to_string(),
                 }),
                 course_material: None,
+                generator_config: None,
             },
             lesson_manifest_template: LessonManifestBuilder::default().course_id(self.id).clone(),
             lesson_builders,
