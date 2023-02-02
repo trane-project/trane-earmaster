@@ -16,7 +16,7 @@ pub mod scale_identification;
 
 use std::collections::BTreeMap;
 
-use indoc::{formatdoc, indoc};
+use indoc::{formatdoc};
 use trane::{
     course_builder::{AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder},
     data::{
@@ -81,7 +81,7 @@ impl EarMasterLesson {
                 .exercise_type(ExerciseType::Procedural)
                 .exercise_asset(ExerciseAsset::FlashcardAsset {
                     front_path: "front.md".to_string(),
-                    back_path: "back.md".to_string(),
+                    back_path: None,
                 })
                 .clone(),
             exercise_builders: vec![ExerciseBuilder {
@@ -96,13 +96,6 @@ impl EarMasterLesson {
                             - Exercise Name: {}
                             - Exercise Number: {}
                         ", course_name, self.name, self.id},
-                    },
-                    AssetBuilder {
-                        file_name: "back.md".to_string(),
-                        contents: indoc! {"
-                            Check your work on Earmaster and score this exercise accordingly.
-                        "}
-                        .to_string(),
                     },
                 ],
             }],
