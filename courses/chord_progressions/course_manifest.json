@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::chord_progressions",
   "name": "Chord Progressions",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::chord_identification"
+  ],
   "description": "Practice EarMaster activity Chord Progressions",
   "authors": [
     "The Trane Project"

@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::rhythm_error_detection",
   "name": "Rhythm Error Detection",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::rhythm_sight_reading"
+  ],
   "description": "Practice EarMaster activity Rhythm Error Detection",
   "authors": [
     "The Trane Project"

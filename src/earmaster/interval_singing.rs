@@ -15,6 +15,7 @@ pub fn course_builder() -> CourseBuilder {
         id: *COURSE_ID,
         name: "Interval Singing".to_string(),
         directory_name: "interval_singing".to_string(),
+        dependencies: vec![*super::interval_comparison::COURSE_ID],
         metadata: Some(BTreeMap::from([(
             MusicMetadata::MusicalConcept.to_string(),
             vec!["intervals".to_string()],

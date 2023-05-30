@@ -15,6 +15,7 @@ pub fn course_builder() -> CourseBuilder {
         id: *COURSE_ID,
         name: "Melody Singback".to_string(),
         directory_name: "melody_singback".to_string(),
+        dependencies: vec![],
         metadata: Some(BTreeMap::from([(
             MusicMetadata::MusicalConcept.to_string(),
             vec!["melody".to_string()],

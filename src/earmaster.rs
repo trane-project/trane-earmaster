@@ -16,7 +16,7 @@ pub mod scale_identification;
 
 use std::collections::BTreeMap;
 
-use indoc::{formatdoc};
+use indoc::formatdoc;
 use trane::{
     course_builder::{AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder},
     data::{
@@ -87,17 +87,15 @@ impl EarMasterLesson {
             exercise_builders: vec![ExerciseBuilder {
                 directory_name: "exercise".to_string(),
                 manifest_closure: Box::new(|m| m),
-                asset_builders: vec![
-                    AssetBuilder {
-                        file_name: "front.md".to_string(),
-                        contents: formatdoc! {"
+                asset_builders: vec![AssetBuilder {
+                    file_name: "front.md".to_string(),
+                    contents: formatdoc! {"
                             Work on the following exercise in EarMaster:
                             - Activity: {}
                             - Exercise Name: {}
                             - Exercise Number: {}
                         ", course_name, self.name, self.id},
-                    },
-                ],
+                }],
             }],
         }
     }
@@ -109,6 +107,9 @@ struct EarMasterCourse {
 
     /// The name of the course.
     name: String,
+
+    /// The dependencies of this course.
+    dependencies: Vec<Ustr>,
 
     /// The name of the directory under which the course is stored.
     directory_name: String,
@@ -140,7 +141,7 @@ impl EarMasterCourse {
                 id: self.id,
                 name: self.name.clone(),
                 description: Some(format!("Practice EarMaster activity {}", self.name)),
-                dependencies: vec![],
+                dependencies: self.dependencies.clone(),
                 authors: Some(vec![AUTHORS.to_string()]),
                 metadata: Some(metadata),
                 course_instructions: Some(BasicAsset::MarkdownAsset {

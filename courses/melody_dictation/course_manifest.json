@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::melody_dictation",
   "name": "Melody Dictation",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::melody_sight_singing"
+  ],
   "description": "Practice EarMaster activity Melody Dictation",
   "authors": [
     "The Trane Project"

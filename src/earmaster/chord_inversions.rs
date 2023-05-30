@@ -15,6 +15,7 @@ pub fn course_builder() -> CourseBuilder {
         id: *COURSE_ID,
         name: "Chord Inversions".to_string(),
         directory_name: "chord_inversions".to_string(),
+        dependencies: vec![*super::chord_identification::COURSE_ID],
         metadata: Some(BTreeMap::from([(
             MusicMetadata::MusicalConcept.to_string(),
             vec!["chords".to_string()],

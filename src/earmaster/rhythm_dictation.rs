@@ -15,6 +15,7 @@ pub fn course_builder() -> CourseBuilder {
         id: *COURSE_ID,
         name: "Rhythm Dictation".to_string(),
         directory_name: "rhythm_dictation".to_string(),
+        dependencies: vec![*super::rhythm_sight_reading::COURSE_ID],
         metadata: Some(BTreeMap::from([(
             MusicMetadata::MusicalConcept.to_string(),
             vec!["rhythm".to_string()],

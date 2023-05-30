@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::melody_sight_singing",
   "name": "Melody Sight-Singing",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::melody_singback"
+  ],
   "description": "Practice EarMaster activity Melody Sight-Singing",
   "authors": [
     "The Trane Project"

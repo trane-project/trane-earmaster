@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::rhythm_dictation",
   "name": "Rhythm Dictation",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::rhythm_sight_reading"
+  ],
   "description": "Practice EarMaster activity Rhythm Dictation",
   "authors": [
     "The Trane Project"

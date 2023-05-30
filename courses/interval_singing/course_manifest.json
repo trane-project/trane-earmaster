@@ -1,7 +1,9 @@
 {
   "id": "trane::music::earmaster::interval_singing",
   "name": "Interval Singing",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::interval_comparison"
+  ],
   "description": "Practice EarMaster activity Interval Singing",
   "authors": [
     "The Trane Project"
