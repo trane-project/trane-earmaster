@@ -2,6 +2,7 @@
   "id": "trane::music::earmaster::chord_identification",
   "name": "Chord Identification",
   "dependencies": [],
+  "superseded": [],
   "description": "Practice EarMaster activity Chord Identification",
   "authors": [
     "The Trane Project"

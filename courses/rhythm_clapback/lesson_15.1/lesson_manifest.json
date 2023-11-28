@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_clapback::13.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "3/4 - 1 bar: Quarter notes, 8th Triplets",
   "description": null,

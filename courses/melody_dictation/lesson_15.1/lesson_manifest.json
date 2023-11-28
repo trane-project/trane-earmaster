@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_dictation::13.11"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_dictation",
   "name": "Do, Re - 1 bar",
   "description": null,

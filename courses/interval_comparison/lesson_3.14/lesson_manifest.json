@@ -4,6 +4,7 @@
     "trane::music::earmaster::interval_comparison::3.8",
     "trane::music::earmaster::interval_comparison::3.11"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Minor 2nd & Major 2nd - Ascending",
   "description": null,

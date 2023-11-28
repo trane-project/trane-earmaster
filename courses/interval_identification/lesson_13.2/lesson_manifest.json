@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_identification::13.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Unison & Octave - Ascending, Descending & Harmonic",
   "description": null,

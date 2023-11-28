@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_comparison::9.13"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Perfect 11th, Perfect 12th & Two Octaves - Harmonic",
   "description": null,

@@ -5,6 +5,7 @@
     "trane::music::earmaster::interval_singing::2.9",
     "trane::music::earmaster::interval_singing::2.10"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_singing",
   "name": "Do to Mi, Re, and Do",
   "description": null,

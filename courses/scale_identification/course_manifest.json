@@ -2,6 +2,7 @@
   "id": "trane::music::earmaster::scale_identification",
   "name": "Scale Identification",
   "dependencies": [],
+  "superseded": [],
   "description": "Practice EarMaster activity Scale Identification",
   "authors": [
     "The Trane Project"

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_inversions::11.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_inversions",
   "name": "Inversions of the mi7 & mi,maj7 chords - Harmonic, ascending and descending",
   "description": null,

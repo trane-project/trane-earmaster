@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_singback::16.10"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_singback",
   "name": "A minor harmonic. 1 bar",
   "description": null,

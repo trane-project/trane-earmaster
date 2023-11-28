@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::17.4",
     "trane::music::earmaster::chord_identification::18.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "All chords with a minor 7th - Harmonic",
   "description": null,

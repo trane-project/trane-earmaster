@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_identification::10.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "All intervals from Perfect 4th to Major 7th - Descending",
   "description": null,

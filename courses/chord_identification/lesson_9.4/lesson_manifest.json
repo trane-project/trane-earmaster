@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::9.2",
     "trane::music::earmaster::chord_identification::9.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Mi7, Mi,maj7 & Mi,add6 - Harmonic, Ascending & Descending",
   "description": null,

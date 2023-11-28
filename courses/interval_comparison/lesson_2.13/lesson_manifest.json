@@ -4,6 +4,7 @@
     "trane::music::earmaster::interval_comparison::2.4",
     "trane::music::earmaster::interval_comparison::2.7"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Minor 6th & Major 6th - Harmonic",
   "description": null,

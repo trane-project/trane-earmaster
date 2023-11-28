@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_identification::14.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Major 3rd & Minor 6th - Ascending, Descending & Harmonic",
   "description": null,

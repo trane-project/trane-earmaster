@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_dictation::5.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_dictation",
   "name": "3/4 - 2 bars: 8th & Quarter notes - including rests",
   "description": null,

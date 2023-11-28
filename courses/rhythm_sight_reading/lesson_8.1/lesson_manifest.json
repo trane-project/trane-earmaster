@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_sight_reading::5.6"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "3/4 - 4 bars: 16th & Quarter notes - including rests",
   "description": null,

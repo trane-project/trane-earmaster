@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_sight_reading::18.2"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "6/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes",
   "description": null,

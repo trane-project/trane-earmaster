@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::14.2",
     "trane::music::earmaster::chord_identification::14.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "maj7(sus2) & maj7(sus4) - Harmonic, Ascending & Descending",
   "description": null,

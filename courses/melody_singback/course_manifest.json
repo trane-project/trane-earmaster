@@ -2,6 +2,7 @@
   "id": "trane::music::earmaster::melody_singback",
   "name": "Melody Singback",
   "dependencies": [],
+  "superseded": [],
   "description": "Practice EarMaster activity Melody Singback",
   "authors": [
     "The Trane Project"

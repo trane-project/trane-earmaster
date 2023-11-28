@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_progressions::1.8"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_progressions",
   "name": "IV - I combinations (plagal cadences)",
   "description": null,

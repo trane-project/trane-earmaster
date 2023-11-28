@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_error_detection::7.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_error_detection",
   "name": "8 bars: Half & Whole notes - including rests",
   "description": null,

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_dictation::23.2"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_dictation",
   "name": "4/4 - 1 bar: Quarter notes, Quarter triplets",
   "description": null,

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_inversions::5.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_inversions",
   "name": "Major, aug & major(b5) - Ascending",
   "description": null,

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_clapback::19.9"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "12/8 - 1 bar: 16th & 8th notes",
   "description": null,

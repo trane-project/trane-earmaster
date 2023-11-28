@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_progressions::1.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_progressions",
   "name": "Various dominant-tonic combinations",
   "description": null,

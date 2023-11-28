@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_clapback::1.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "4/4 - 1 bar: Half notes & Whole notes - including rests",
   "description": null,

@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::5.2",
     "trane::music::earmaster::chord_identification::5.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Sus2 & Sus4 - Harmonic, Ascending & Descending",
   "description": null,

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_singback::1.7"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_singback",
   "name": "Do, Re - 5 tones",
   "description": null,

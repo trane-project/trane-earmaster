@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_progressions::1.16"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_progressions",
   "name": "Interrupted cadences",
   "description": null,

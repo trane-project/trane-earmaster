@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification::5.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Dim, Major(b5) & Aug - Ascending",
   "description": null,

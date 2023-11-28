@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification::7.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "7(sus4) & 7(sus2) - Descending",
   "description": null,

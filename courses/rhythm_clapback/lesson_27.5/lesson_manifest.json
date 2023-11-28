@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_clapback::27.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "Asymmetrical meters I",
   "description": null,

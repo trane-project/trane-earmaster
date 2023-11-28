@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_comparison"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Interval Identification",
   "authors": [
     "The Trane Project"

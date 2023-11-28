@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::3.2",
     "trane::music::earmaster::chord_identification::3.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Major, Major(b5) & Aug - Harmonic, Ascending & Descending",
   "description": null,

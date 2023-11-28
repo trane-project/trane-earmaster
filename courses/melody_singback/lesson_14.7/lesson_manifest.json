@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_singback::14.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_singback",
   "name": "Do, Re - 2 bars",
   "description": null,

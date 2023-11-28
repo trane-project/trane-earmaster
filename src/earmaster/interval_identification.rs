@@ -121,18 +121,18 @@ pub fn course_builder() -> CourseBuilder {
                 vec!["7.1", "7.2", "7.3"],
             ),
             // Unit 8.
-            EarMasterLesson::new("8.1", "Major 6th & Minor 6th - Ascending", vec![]),
-            EarMasterLesson::new("8.2", "Major 6th & Minor 6th - Descending", vec![]),
-            EarMasterLesson::new("8.3", "Major 6th & Minor 6th - Harmonic", vec![]),
+            EarMasterLesson::new("8.1", "Major 6th & Minor 6th - Ascending", vec!["7.4"]),
+            EarMasterLesson::new("8.2", "Major 6th & Minor 6th - Descending", vec!["7.4"]),
+            EarMasterLesson::new("8.3", "Major 6th & Minor 6th - Harmonic", vec!["7.4"]),
             EarMasterLesson::new(
                 "8.4",
                 "Major 6th & Minor 6th - Ascending, Descending & Harmonic",
                 vec!["8.1", "8.2", "8.3"],
             ),
             // Unit 9.
-            EarMasterLesson::new("9.1", "Major 7th & Minor 7th - Ascending", vec![]),
-            EarMasterLesson::new("9.2", "Major 7th & Minor 7th - Descending", vec![]),
-            EarMasterLesson::new("9.3", "Major 7th & Minor 7th - Harmonic", vec![]),
+            EarMasterLesson::new("9.1", "Major 7th & Minor 7th - Ascending", vec!["7.4"]),
+            EarMasterLesson::new("9.2", "Major 7th & Minor 7th - Descending", vec!["7.4"]),
+            EarMasterLesson::new("9.3", "Major 7th & Minor 7th - Harmonic", vec!["7.4"]),
             EarMasterLesson::new(
                 "9.4",
                 "Major 7th & Minor 7th - Ascending, Descending & Harmonic",

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_singback::1.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_singback",
   "name": "Do, Re, Mi, Fa, So, La, Ti",
   "description": null,

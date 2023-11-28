@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::21.2",
     "trane::music::earmaster::chord_identification::21.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Chords with a Major 6th or Diminished 7th - Harmonic, Ascending & Descending",
   "description": null,

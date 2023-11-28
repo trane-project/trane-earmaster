@@ -4,6 +4,7 @@
     "trane::music::earmaster::interval_comparison::3.9",
     "trane::music::earmaster::interval_comparison::3.12"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Minor 7th & Major 7th - Descending",
   "description": null,

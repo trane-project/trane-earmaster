@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_progressions::1.2"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_progressions",
   "name": "VIIdim7 - in major and minor",
   "description": null,

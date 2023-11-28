@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_dictation::24.7"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_dictation",
   "name": "3/4 - 1 bar: 16th notes, 16th triplets - including rests",
   "description": null,

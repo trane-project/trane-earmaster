@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_comparison::20.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Minor 10th, Major 10th, Minor 13th & Major 13th - Ascending",
   "description": null,

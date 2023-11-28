@@ -126,7 +126,7 @@ impl EarMasterCourse {
         let mut metadata: BTreeMap<String, Vec<String>> =
             BTreeMap::from([("earmaster".to_string(), vec!["true".to_string()])]);
         if let Some(input_metadata) = self.metadata.clone() {
-            metadata.extend(input_metadata.into_iter());
+            metadata.extend(input_metadata);
         }
 
         let lesson_builders = self
@@ -142,6 +142,7 @@ impl EarMasterCourse {
                 name: self.name.clone(),
                 description: Some(format!("Practice EarMaster activity {}", self.name)),
                 dependencies: self.dependencies.clone(),
+                superseded: vec![],
                 authors: Some(vec![AUTHORS.to_string()]),
                 metadata: Some(metadata),
                 course_instructions: Some(BasicAsset::MarkdownAsset {

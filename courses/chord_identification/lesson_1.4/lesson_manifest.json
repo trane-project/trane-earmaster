@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::1.2",
     "trane::music::earmaster::chord_identification::1.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Major & Minor - Harmonic, Ascending & Descending",
   "description": null,

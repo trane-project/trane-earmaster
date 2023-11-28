@@ -4,6 +4,7 @@
     "trane::music::earmaster::chord_identification::9.4",
     "trane::music::earmaster::chord_identification::10.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Mi7, Mi,maj7, Dim7, Mi7(b5) & dim,maj7 - Descending",
   "description": null,

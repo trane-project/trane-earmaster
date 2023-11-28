@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_error_detection::2.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_error_detection",
   "name": "3/4 - 2 bars: Quarter & Half Notes - including rests",
   "description": null,

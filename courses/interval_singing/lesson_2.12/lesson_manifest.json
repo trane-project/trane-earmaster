@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_singing::2.11"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_singing",
   "name": "All descending intervals from Do",
   "description": null,

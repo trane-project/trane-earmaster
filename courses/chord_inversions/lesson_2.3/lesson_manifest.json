@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_inversions::2.2"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_inversions",
   "name": "Inversions of the minor chord - Harmonic",
   "description": null,

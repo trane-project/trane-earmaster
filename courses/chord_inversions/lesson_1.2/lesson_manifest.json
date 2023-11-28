@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_inversions::1.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_inversions",
   "name": "Inversions of the major chord - Descending",
   "description": null,

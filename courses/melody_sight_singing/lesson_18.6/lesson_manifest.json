@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_sight_singing::18.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_sight_singing",
   "name": "Harmonic  minor (all keys). 4 bars",
   "description": null,

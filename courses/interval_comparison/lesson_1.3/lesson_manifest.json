@@ -1,6 +1,7 @@
 {
   "id": "trane::music::earmaster::interval_comparison::1.3",
   "dependencies": [],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Perfect 4th & Octave  - Descending",
   "description": null,

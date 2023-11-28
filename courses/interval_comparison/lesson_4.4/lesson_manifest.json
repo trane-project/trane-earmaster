@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_comparison::4.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "All intervals from Perfect 5th to Octave - Ascending",
   "description": null,

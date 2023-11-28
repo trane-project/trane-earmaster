@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_dictation::4.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_dictation",
   "name": "Do, Re, Mi, Fa, So, La",
   "description": null,

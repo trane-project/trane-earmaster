@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_sight_singing"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Melody Dictation",
   "authors": [
     "The Trane Project"

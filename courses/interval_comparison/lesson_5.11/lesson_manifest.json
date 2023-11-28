@@ -5,6 +5,7 @@
     "trane::music::earmaster::interval_comparison::5.9",
     "trane::music::earmaster::interval_comparison::5.10"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Test: Compound intervals with a common 1st tone",
   "description": null,

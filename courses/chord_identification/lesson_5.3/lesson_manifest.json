@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification::4.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Sus2 & Sus4 - Harmonic",
   "description": null,

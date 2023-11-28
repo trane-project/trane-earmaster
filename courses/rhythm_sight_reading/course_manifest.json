@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_clapback"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Rhythm Sight-Reading",
   "authors": [
     "The Trane Project"

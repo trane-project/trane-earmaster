@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_sight_singing::18.1"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_sight_singing",
   "name": "A Minor harmonic. 2 bars",
   "description": null,

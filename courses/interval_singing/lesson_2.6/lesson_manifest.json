@@ -4,6 +4,7 @@
     "trane::music::earmaster::interval_singing::2.4",
     "trane::music::earmaster::interval_singing::2.5"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_singing",
   "name": "Do - So and Do - Fa",
   "description": null,

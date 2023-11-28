@@ -4,6 +4,7 @@
     "trane::music::earmaster::rhythm_error_detection::26.8",
     "trane::music::earmaster::rhythm_error_detection::27.8"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_error_detection",
   "name": "Mixed time signatures with 32nd, 16th, 8th & Quarter notes",
   "description": null,

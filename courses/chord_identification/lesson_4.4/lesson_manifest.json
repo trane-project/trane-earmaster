@@ -5,6 +5,7 @@
     "trane::music::earmaster::chord_identification::4.2",
     "trane::music::earmaster::chord_identification::4.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Minor & Dim - Harmonic, Ascending & Descending",
   "description": null,

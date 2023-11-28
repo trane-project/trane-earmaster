@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_sight_reading"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Rhythm Error Detection",
   "authors": [
     "The Trane Project"

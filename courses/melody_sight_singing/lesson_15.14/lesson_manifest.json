@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_sight_singing::15.13"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_sight_singing",
   "name": "Do, Re, Me, Fa, So",
   "description": null,

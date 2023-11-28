@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_singback"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Melody Sight-Singing",
   "authors": [
     "The Trane Project"

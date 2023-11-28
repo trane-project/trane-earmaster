@@ -8,6 +8,7 @@
     "trane::music::earmaster::interval_comparison::2.12",
     "trane::music::earmaster::interval_comparison::2.13"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Test: Imperfect consonant intervals with a common 1st tone",
   "description": null,

@@ -2,6 +2,7 @@
   "id": "trane::music::earmaster::rhythm_clapback",
   "name": "Rhythm Clapback",
   "dependencies": [],
+  "superseded": [],
   "description": "Practice EarMaster activity Rhythm Clapback",
   "authors": [
     "The Trane Project"

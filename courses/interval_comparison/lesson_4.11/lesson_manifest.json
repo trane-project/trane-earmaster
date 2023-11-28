@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::interval_comparison::4.8"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "All intervals from Minor 2nd to Dim 5th - Descending",
   "description": null,

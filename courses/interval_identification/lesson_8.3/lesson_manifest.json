@@ -1,6 +1,9 @@
 {
   "id": "trane::music::earmaster::interval_identification::8.3",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::7.4"
+  ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Major 6th & Minor 6th - Harmonic",
   "description": null,

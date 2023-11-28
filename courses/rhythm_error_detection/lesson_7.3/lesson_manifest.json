@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::rhythm_error_detection::7.2"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_error_detection",
   "name": "8 bars: 8th notes - including rests",
   "description": null,

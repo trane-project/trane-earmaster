@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification"
   ],
+  "superseded": [],
   "description": "Practice EarMaster activity Chord Progressions",
   "authors": [
     "The Trane Project"

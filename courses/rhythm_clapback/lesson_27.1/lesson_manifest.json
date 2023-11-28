@@ -4,6 +4,7 @@
     "trane::music::earmaster::rhythm_clapback::25.8",
     "trane::music::earmaster::rhythm_clapback::26.8"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "Simple meters",
   "description": null,

@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification::1.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Major, Minor & Sus4 - Ascending",
   "description": null,

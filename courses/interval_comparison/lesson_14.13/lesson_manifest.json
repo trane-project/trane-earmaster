@@ -8,6 +8,7 @@
     "trane::music::earmaster::interval_comparison::14.11",
     "trane::music::earmaster::interval_comparison::14.12"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_comparison",
   "name": "Test: Simple intervals with nearby first tones",
   "description": null,

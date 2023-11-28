@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::chord_identification::7.4"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::chord_identification",
   "name": "Mi7, Mi,maj7 & Mi,add6 - Descending",
   "description": null,

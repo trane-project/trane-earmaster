@@ -3,6 +3,7 @@
   "dependencies": [
     "trane::music::earmaster::melody_dictation::17.10"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::melody_dictation",
   "name": "A minor harmonic. 1 bar",
   "description": null,

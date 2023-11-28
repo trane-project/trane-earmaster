@@ -5,6 +5,7 @@
     "trane::music::earmaster::interval_identification::8.2",
     "trane::music::earmaster::interval_identification::8.3"
   ],
+  "superseded": [],
   "course_id": "trane::music::earmaster::interval_identification",
   "name": "Major 6th & Minor 6th - Ascending, Descending & Harmonic",
   "description": null,
